@@ -1,0 +1,116 @@
+body{
+    background: linear-gradient(to right,orange,rgb(181, 181, 252));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    position: relative;
+}
+#duce{
+    position: absolute;
+    top: 30vh;
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    box-shadow:8px 5px 15px rgb(133, 219, 133) ;
+    border-radius: 5px;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: auto auto ;
+    gap: 20px ;
+    padding: 10px;
+    background-color: aliceblue;
+}
+#duce > div{
+    width: 15px;
+    height: 15px;
+    border-radius: 8px;
+    background-color: red;
+    z-index: 1;
+}
+.new{
+    position: absolute;
+    top: 10vh;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    color: rgb(92, 91, 91);
+    cursor: pointer;
+}
+.player1 {
+    position: relative;
+    top:5vh;
+    width: 35vw;
+    height: 90vh;
+    background-color: aliceblue;
+    box-shadow: 0px 10px 50px 1px rgb(83, 82, 82);
+    border-radius: 20px 0 0 20px ;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.player2 {
+    position: relative;
+    top: 5vh;
+    width: 35vw;
+    height: 90vh;
+    background-color: aliceblue;
+    box-shadow: 30px 10px 40px 1px rgb(83, 83, 83);
+    border-radius:0 20px 20px 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.name1{
+    position: absolute;
+    top: 90px;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(85, 83, 83);
+}
+.scoreduce{
+    position: absolute;
+    top: 200px;
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(199, 134, 134);
+}
+.score{
+    position: absolute;
+    bottom: 150px;
+    width: 90px;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+    color: aliceblue;
+    box-shadow: 2px 2px 10px rgb(51, 50, 50);
+    cursor: pointer;
+}
+.lence{
+    top: 70vh;
+    position: absolute;
+    color: gray;
+    font-family: 'Courier New', Courier, monospace;
+    cursor: pointer;
+}
+.passe{
+    top: 75vh;
+    position: absolute;
+    color: gray;
+    font-family: 'Courier New', Courier, monospace;
+    cursor: pointer;
+
+}
+
+
